@@ -48,6 +48,7 @@ export default function App() {
     setItems((prev) => prev.filter((p) => p.id !== id));
   };
 
+  // BU REPO BİTTİ
   const totalPieces = items.reduce((sum, p) => sum + p.quantity, 0);
 
   return (

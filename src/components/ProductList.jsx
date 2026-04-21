@@ -21,6 +21,7 @@ function QuantityControl({ quantity, onIncrement, onDecrement }) {
     </div>
   );
 }
+// I AM GONNA KILL YOU
 
 export default function ProductList({ items, onIncrement, onDecrement, onRemove }) {
   if (items.length === 0) {

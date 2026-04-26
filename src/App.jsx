@@ -36,6 +36,7 @@ export default function App() {
     });
   };
 
+  // Filtre eklemişim gibi say kankilettooo, lütfenn
   const decrementQuantity = (id) => {
     setItems((prev) =>
       prev
